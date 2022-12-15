@@ -6,6 +6,7 @@ import Futebol from "../pages/futebol/Futebol";
 import TabelaIngles from "../pages/futebol/tabelaCampeonatoIngles/TabelaIngles";
 import Post from "../components/post/Post";
 import Espanha from "./futebol/espanha/Espanha";
+import Franca from "./futebol/franca/Franca";
 
 function Rotas() {
 
@@ -17,6 +18,7 @@ function Rotas() {
           <Route path="/futebol" element={<Futebol />}/>
           <Route path="/futebol/ingles" element={<TabelaIngles />}/> 
           <Route path="/futebol/espanha" element={<Espanha />}/> 
+          <Route path="/futebol/franca" element={<Franca />}/> 
 
 
           <Route path="/futebol/ingles/noticia" element={<Post titulo="Teste" conteudo="teste2" />}/>

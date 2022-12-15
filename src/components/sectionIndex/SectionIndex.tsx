@@ -40,17 +40,6 @@ const SectionIndex = () => {
               />
             )
           })}
-
-          {noticia.map(noticias => {
-            if (noticias.descricao === brasil) {
-              return <UltimasNoticias key={noticias.titulo}
-                imagem={noticias.imagem}
-                titulo={noticias.titulo}
-                descricao={noticias.descricao}
-                url={noticias.url} />
-            }
-
-          })}
         </div>
         <div className="max-w-full max-h-[200px]">
           <Ingles />

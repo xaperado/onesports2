@@ -20,6 +20,6 @@ model Noticia {
 
 model Tabela {
   campeonato String @id
-  background String
-  link       String
+  backImage  String
+  urlTabela  String
 }
